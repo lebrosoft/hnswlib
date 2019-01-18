@@ -102,6 +102,10 @@ public:
         ep_added = false;
     }
 
+    unsigned int get_num() {
+        return cur_l;
+    }
+
     void set_ef(size_t ef) {
         appr_alg->ef_ = ef;
     }
